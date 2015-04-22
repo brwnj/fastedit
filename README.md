@@ -1,6 +1,5 @@
 # Simple Fasta Editing
-This is only practical if you're editing a small number of headers, but this
-hopefully will facilitate doing just that.
+Quickly alter the headers of fasta entries using a CSV.
 
 # Installation
 ```
@@ -34,7 +33,7 @@ entry_2,
 
 Create new fasta using your CSV:
 ```
-fastedit put --verbose my.fasta names.csv
+fastedit put --verbose my.fasta headers.csv
 >new_name_for_entry_1
 ACGTACTGACGTACTG
 >entry_2
