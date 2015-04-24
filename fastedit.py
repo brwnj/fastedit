@@ -10,7 +10,6 @@ import sys
 from csv import reader
 from itertools import groupby
 
-CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 gzopen = lambda f: gzip.open(f) if f.endswith(".gz") else open(f)
 
 
