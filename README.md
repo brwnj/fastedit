@@ -39,5 +39,5 @@ ACGTACTGACGTACTG
 >entry_2
 ACGTACTGACGTAC
 Input fasta contained 3 records
-You renamed 1 and kept a total of 1
+You renamed 1 and kept a total of 2
 ```
